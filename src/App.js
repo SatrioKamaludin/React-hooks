@@ -2,6 +2,7 @@ import React, { useState, Component } from 'react'
 import logo from './logo.svg';
 import './App.css';
 
+//hooks allow us to create state inside function component
 const App = () => {
   // [state's name, function to change state]
   const [number, setNumber] = useState(0) //number
